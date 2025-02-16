@@ -27,4 +27,4 @@ RUN sed -i 's|resize=scale|resize=remote|g' /opt/novnc/index.html
 
 USER gitpod
 
-RUN cd $HOME && wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2024.2.2.14/android-studio-2024.2.2.14-linux.tar.gz && tar zxvf android-studio-2024.2.2.14-linux.tar.gz  && rm -r android-studio-2024.2.2.14-linux.tar.gz
+RUN cd $HOME && wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2022.2.1.18/android-studio-2022.2.1.18-linux.tar.gz && tar zxvf android-studio-2022.2.1.18-linux.tar.gz  && rm -r android-studio-2022.2.1.18-linux.tar.gz 
